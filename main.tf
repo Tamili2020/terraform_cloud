@@ -12,3 +12,14 @@ resource "aws_s3_bucket" "firstbucket" {
   }
 
 }
+
+resource "aws_s3_bucket" "firstbucket2" {
+  bucket = "muthufirstbucket100004"
+
+  tags = {
+    Name        = "firstbucket"
+    Environment = "Dev"
+    Created_by = "terraform_source"
+  }
+
+}
