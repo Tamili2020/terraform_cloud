@@ -14,7 +14,7 @@ resource "aws_s3_bucket" "firstbucket" {
 }
 
 resource "aws_s3_bucket" "firstbucket2" {
-  bucket = "muthufirstbucket100004"
+  bucket = "muthufirs004"
 
   tags = {
     Name        = "firstbucket"
