@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "firstbucket" {
   tags = {
     Name        = "firstbucket"
     Environment = "Dev"
-    Created_by = "terraform"
+    Created_by = "terraform_source"
   }
 
 }
